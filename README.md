@@ -22,6 +22,6 @@ Kör:
 npx playwright test
 
 # Testerna kontrollerar
-- att startsidan laddas
-- att användaren kan navigera på sidan
-- att innehåll visas korrekt
+- Att användaren kan öppna Brewscape-webbplatsen och att rätt sida visas.
+- Att användaren försöker öppna produktinformationen för produkten "Konisk kvarn", men att ingen separat produktsida öppnas utan att användaren stannar kvar på produktsidan.
+- Att produktinformationen för "Konisk kvarn" visas korrekt, inklusive produktnamn, beskrivning och pris.
